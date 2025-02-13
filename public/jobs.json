@@ -1,0 +1,991 @@
+[
+  {
+    "category": "Custom",
+    "jobs": [
+          {
+            "name": "Trabajo personalizado",
+            "description": "Diseño generico personalizado, para hacer un seguimiento y tasacion de horas",
+            "minHours": 0,
+            "hours": 10,
+            "maxHours": 200
+          }
+    ]
+  },
+  {
+    "category": "Diseño Digital",
+    "subcategories": [
+      {
+        "subcategory": "Web",
+        "jobs": [
+          {
+            "name": "Sitio Web Proyecto completo - Diseño + Maquetación (baja-complejidad)",
+            "description": "Diseño de interfaz para sitio web multipágina (hasta 5 secciones): presentación de colores, tipografías, fotos, íconos y otros elementos de uso.",
+            "minHours": 5,
+            "hours": 15,
+            "maxHours": 25
+          },
+          {
+            "name": "Sitio Web - Solo diseño (baja complejidad)",
+            "description": "Maquetación de varias páginas (o tipo sábana), con hasta 5 secciones, slider animados, mapas de Google y conexión a redes sociales.",
+            "minHours": 20,
+            "hours": 30,
+            "maxHours": 40
+          },
+          {
+            "name": "Sitio Web Proyecto completo . Diseño + Maquetación (media complejidad)",
+            "description": "Diseño de interfaz para sitio web multipágina (hasta 10 secciones): presentación de colores, tipografías, fotos, íconos y otros elementos de uso. Maquetación de varias páginas (o tipo sábana), con hasta 10 secciones, slider animados, mapas de Google y conexión a redes sociales.",
+            "minHours": 40,
+            "hours": 65,
+            "maxHours": 90
+          },
+          {
+            "name": "Sitio web - Sólo diseño (media complejidad)",
+            "description": "Diseño de interfaz para sitio web multipágina (hasta 10 secciones): presentación de colores, tipografías, fotos, íconos y otros elementos de uso.",
+            "minHours": 10,
+            "hours": 20,
+            "maxHours": 30
+          },
+          {
+            "name": "Sitio web - Sólo maquetación (media complejidad)",
+            "description": "Maquetación de varias páginas (o tipo sábana), con hasta 10 secciones, slider animados, mapas de Google y conexión a redes sociales.",
+            "minHours": 30,
+            "hours": 45,
+            "maxHours": 60
+          },
+          {
+            "name": "Actualización de sitio web HTML/CSS",
+            "description": "Modificación básica (datos, textos y fotos). No incluye: cambios en interfaz o incorporación de secciones.",
+            "minHours": 1,
+            "hours": 16,
+            "maxHours": 30
+          },
+          {
+            "name": "Landing Page . Diseño + Maquetación",
+            "description": "Landing page (página de aterrizaje). Diseño de interfaz para campaña de marketing digital, de alta eficacia y de uso directo. Maquetación HTML.",
+            "minHours": 15,
+            "hours": 30,
+            "maxHours": 45
+          },
+          {
+            "name": "Landing Page sitio web - Sólo diseño",
+            "description": "Landing page (página de aterrizaje). Diseño de interfaz del HTML, para campaña de marketing digital, de alta eficacia y de uso directo.",
+            "minHours": 5,
+            "hours": 10,
+            "maxHours": 15
+          },
+          {
+            "name": "Landing Page sitio web - Sólo maquetación",
+            "description": "Landing page (página de aterrizaje). Maquetación HTML, diseñado para campaña de marketing digital, de alta eficacia y de uso directo.",
+            "minHours": 10,
+            "hours": 20,
+            "maxHours": 30
+          },
+          {
+            "name": "Armado tienda online básica (Tiendanube, Wix o similar)",
+            "description": "Edición de plantillas (paleta de colores, tipografías, imágenes y demás elementos) y carga de productos (hasta 25). El costo de la plataforma no se encuentra incluido.",
+            "minHours": 20,
+            "hours": 35,
+            "maxHours": 50
+          }
+        ]
+      },
+      {
+        "subcategory": "Apps",
+        "jobs": [
+          {
+            "name": "Diseño APP UX (experiencia de usuario)",
+            "description": "Desarrollo de la navegación/usabilidad. Hasta 5 pantallas (vertical/apaisada de c/u) para un sistema operativo.",
+            "minHours": 15,
+            "hours": 30,
+            "maxHours": 45
+          },
+          {
+            "name": "Diseño APP UI (interfaz de usuario)",
+            "description": "Diseño de interfaz, selección y distribución de los elementos. Hasta 5 pantallas (vertical/apaisada de c/u) para un sistema operativo.",
+            "minHours": 15,
+            "hours": 30,
+            "maxHours": 45
+          },
+          {
+            "name": "Maquetación APP (programación híbrida)",
+            "description": "Hasta 5 secciones (vertical/apaisada de c/u) para un sistema operativo",
+            "minHours": 15,
+            "hours": 30,
+            "maxHours": 45
+          },
+          {
+            "name": "Maquetación APP (programación nativa)",
+            "description": "Hasta 5 secciones (vertical/apaisada de c/u) para un sistema operativo.",
+            "minHours": 30,
+            "hours": 45,
+            "maxHours": 60
+          }
+        ]
+      },
+      {
+        "subcategory": "Otros",
+        "jobs": [
+          {
+            "name": "Banner publicitario animado",
+            "description": "Animación GIF, Javascript o versión reducida Jquery. Hasta 15'.",
+            "minHours": 5,
+            "hours": 7,
+            "maxHours": 9
+          },
+          {
+            "name": "Campaña SEM básica",
+            "description": "Hasta 500 palabras claves + un informe mensual. No incluye inversión en Google AdWords o similar.",
+            "minHours": 5,
+            "hours": 6,
+            "maxHours": 7
+          },
+          {
+            "name": "Firma o encabezado de e-mail",
+            "description": "Aplicación sobre marca existente. Se entrega imagen estática optimizada para insertar en el correo.",
+            "minHours": 1,
+            "hours": 2,
+            "maxHours": 3
+          },
+          {
+            "name": "Fotomontaje de imágenes",
+            "description": "Costo por imagen. Fotomontaje, restauración o aplicación de otras técnicas.",
+            "minHours": 4,
+            "hours": 5,
+            "maxHours": 6
+          },
+          {
+            "name": "Google Analytics",
+            "description": "Activación de sistema de reportes online de tráfico e integración con Google Analytics.",
+            "minHours": 4,
+            "hours": 5,
+            "maxHours": 6
+          },
+          {
+            "name": "Mailing publicitario (newsletter)",
+            "description": "Diseño y desarrollo de pieza digital con vínculos activos.",
+            "minHours": 4,
+            "hours": 6,
+            "maxHours": 8
+          },
+          {
+            "name": "Posicionamiento SEO optimizado",
+            "description": "Lectura avanzada de la codificación del sitio.",
+            "minHours": 5,
+            "hours": 6,
+            "maxHours": 7
+          },
+          {
+            "name": "Presentación interactiva (símil PowerPoint)",
+            "description": "Diseño y armado de 10 pantallas. Textos provistos por el cliente. Sin audio. Sin video. No incluye creación de gráficos, búsqueda de imágenes, redacción y/o corrección de textos.",
+            "minHours": 4,
+            "hours": 10,
+            "maxHours": 20
+          },
+          {
+            "name": "Retoque básico de imágenes digitales",
+            "description": "Costo por 5 imágenes. Retoque de color, balance, pasaje de color a blanco y negro, etc.",
+            "minHours": 1,
+            "hours": 2,
+            "maxHours": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Diseño Editorial",
+    "subcategories": [
+      {
+        "subcategory": "Libros",
+        "jobs": [
+          {
+            "name": "Libro. Proyecto completo. Diseño Simple + Maquetación",
+            "description": "Diseño y maquetación de una libro de 80 páginas (1 color, sin ilustraciones), tamaño A5 (aprox.). Prueba de galera + diseño de tapa. Incluye 2 alternativas y la posibilidad de 1 ajuste.",
+            "minHours": 40,
+            "hours": 70,
+            "maxHours": 100
+          },
+          {
+            "name": "Libro. Proyecto completo. Diseño Complejo + Maquetación",
+            "description": "Diseño y maquetación de una libro de 80 páginas (1 color, con ilustraciones), entre tamaño A5 y A4 (aprox.). Prueba de galera + diseño de tapa. Incluye 2 alternativas y la posibilidad de 1 ajuste.",
+            "minHours": 60,
+            "hours": 100,
+            "maxHours": 120
+          },
+          {
+            "name": "Arte de tapa (libro)",
+            "description": "Diseño de tapa, contratapa y lomo. Se entregan archivos preparados para impresión.",
+            "minHours": 5,
+            "hours": 15,
+            "maxHours": 25
+          },
+          {
+            "name": "Libro. Diseño página simple",
+            "description": "Costo de diseño por página original. Para piezas como libros, memoria y balance, etc.",
+            "minHours": 0.25,
+            "hours": 1,
+            "maxHours": 2
+          },
+          {
+            "name": "Libro. Diseño página compleja",
+            "description": "Costo de diseño por página original. Para piezas como revistas, diarios, manuales de estudio, etc.",
+            "minHours": 0.25,
+            "hours": 1.5,
+            "maxHours": 3
+          },
+          {
+            "name": "Libro. Maquetación",
+            "description": "Armado de un libro a partir de un Master previo con 80 páginas (1 color, sin ilustraciones), tamaño entre A5 y A4 (aprox.). Prueba de galera + diseño de tapa. Incluye 2 alternativas y la posibilidad de 1 ajuste.",
+            "minHours": 20,
+            "hours": 45,
+            "maxHours": 70
+          },
+          {
+            "name": "Señalador",
+            "description": "Diseño que incluye 2 alternativas y la posibilidad de 1 ajuste. Se entrega en formato digital (PDF).",
+            "minHours": 2,
+            "hours": 4,
+            "maxHours": 6
+          }
+        ]
+      },
+      {
+        "subcategory": "Mailing",
+        "jobs": [
+          {
+            "name": "Mailing. Diseño + Maquetación",
+            "description": "Diseño y armado de pieza gráfica, tamaño A4 (cerrada). 2 pliegos, de 8 páginas, para imprimir a 4 colores. Textos e imágenes provisto por el cliente. Se entrega archivo preparado para impresión.",
+            "minHours": 14,
+            "hours": 23,
+            "maxHours": 32
+          },
+          {
+            "name": "Mailing. Sólo Diseño",
+            "description": "Diseño de pieza gráfica, tamaño A4 (cerrada). 2 pliegos, de 8 páginas, para imprimir a 4 colores. Textos e imágenes provisto por el cliente. Se entrega archivo preparado para impresión.",
+            "minHours": 10,
+            "hours": 15,
+            "maxHours": 20
+          },
+          {
+            "name": "Mailing. Sólo Maquetación",
+            "description": "Diseño de pieza gráfica, tamaño A4 (cerrada). 2 pliegos, de 8 páginas, para imprimir a 4 colores. Textos e imágenes provisto por el cliente. Se entrega archivo preparado para impresión.",
+            "minHours": 6,
+            "hours": 10,
+            "maxHours": 14
+          }
+        ]
+      },
+      {
+        "subcategory": "Revista",
+        "jobs": [
+          {
+            "name": "Revista Completa. Diseño + Maquetación",
+            "description": "Diseño y armado de un número 1 de la revista, tamaño A4 (cerrada). 4 pliegos, de 16 páginas, para imprimir a 4 colores. Textos e imágenes provisto por el cliente. Se entrega archivo preparado para impresión.",
+            "minHours": 50,
+            "hours": 90,
+            "maxHours": 150
+          },
+          {
+            "name": "Arte de tapa (Revista)",
+            "description": "Diseño de tapa, contratapa y lomo. Se entregan archivos preparados para impresión o edición impresa.",
+            "minHours": 5,
+            "hours": 15,
+            "maxHours": 25
+          },
+          {
+            "name": "Revista. Sólo Diseño",
+            "description": "Diseño del la pieza maestra, tamaño A4 (cerrada). 4 pliegos, de 16 páginas, para imprimir a 4 colores. Textos e imágenes provisto por el cliente. Se entrega archivo preparado para impresión.",
+            "minHours": 30,
+            "hours": 55,
+            "maxHours": 100
+          },
+          {
+            "name": "Revista. Sólo Maquetación",
+            "description": "Armado de pieza gráfica, tamaño A4 (cerrada). 4 pliegos, de 16 páginas, para imprimir a 4 colores. Textos e imágenes provisto por el cliente. Se entrega archivo preparado para impresión.",
+            "minHours": 15,
+            "hours": 20,
+            "maxHours": 25
+          }
+        ]
+      },
+      {
+        "subcategory": "Otros",
+        "jobs": [
+          {
+            "name": "Catálogo de productos",
+            "description": "Diseño y maquetado de pieza gráfica, páginas tamaño A4 (cerrada). Hasta 20 páginas, para imprimir a 4 colores. Textos e imágenes provisto por el cliente. Se entrega archivo preparado para impresión y archivo digital (PDF).",
+            "minHours": 25,
+            "hours": 40,
+            "maxHours": 55
+          },
+          {
+            "name": "Entrada / Ticket",
+            "description": "Tamaño A6 o menor, incluye 2 alternativas y la posibilidad de 1 ajuste. Se entregan archivos preparados para impresión.",
+            "minHours": 2,
+            "hours": 4,
+            "maxHours": 6
+          },
+          {
+            "name": "Folleto (tipo brochure)",
+            "description": "Pieza gráfica con contenido informativo, publicitario o identificador. Díptico A4 abierto (A5 plegado). Diseño a 4 colores. Textos provistos por el cliente, incluye 2 alternativas y la posibilidad de 1 ajuste. No incluye búsqueda de imágenes, ni redacción/corrección de textos.",
+            "minHours": 18,
+            "hours": 24,
+            "maxHours": 30
+          },
+          {
+            "name": "Folleto (instructivo)",
+            "description": "Pieza gráfica con contenido informativo/educativo. Tipo tríptico A4 con desarrollo de infografía de baja complejidad o signos icónicos. Textos provistos por el cliente, incluye 2 alternativas y la posibilidad de 1 ajuste. No incluye búsqueda de imágenes, ni redacción/corrección de textos.",
+            "minHours": 18,
+            "hours": 24,
+            "maxHours": 30
+          },
+          {
+            "name": "Manual de instrucciones",
+            "description": "Costo por página tipo A4, diagramación única (incluye desarrollo de infografía de baja complejidad o signos icónicos simples). Textos e imágenes provistos por el cliente, incluye 2 alternativas y la posibilidad de 1 ajuste. No incluye redacción/corrección de textos.",
+            "minHours": 1,
+            "hours": 2,
+            "maxHours": 3
+          },
+          {
+            "name": "Menú / Carta (Gastronómico)",
+            "description": "Diseño de pieza gráfica, tamaño A4 (cerrada). Hasta 6 páginas, para imprimir a 4 colores. Textos e imágenes provisto por el cliente. Se entrega archivo preparado para impresión y archivo digital (PDF).",
+            "minHours": 8,
+            "hours": 14,
+            "maxHours": 20
+          },
+          {
+            "name": "Tarjeta Salutación",
+            "description": "Diseño de pieza formato A6 (o proporcional), incluye 2 alternativas y la posibilidad de 1 ajuste. Se entrega en formato digital (PDF).",
+            "minHours": 4,
+            "hours": 6,
+            "maxHours": 8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Diseño de Identidad",
+    "subcategories": [
+      {
+        "subcategory": "Elementos Marcarios",
+        "jobs": [
+          {
+            "name": "Proyecto de identidad visual completo",
+            "description": "Diseño de Isologo / Imagotipo. Reunión con cliente para brief. Presentación de dos alternativas y la posibilidad de 1 ajuste + Manual con normalización + Papelería completa (carpetas, Hoja A4 membrete, Tarjetas personales) Se entrega archivo vectorial convertido a curvas.",
+            "minHours": 25,
+            "hours": 45,
+            "maxHours": 70
+          },
+          {
+            "name": "Claim",
+            "description": "Desarrollo para definir frase que describe a un servicio o producto, o un beneficio que se le atribuye. Se asocian a campañas, suelen ser temporales.",
+            "minHours": 3,
+            "hours": 5,
+            "maxHours": 7
+          },
+          {
+            "name": "Isologo / Imagotipo",
+            "description": "Diseño de isologotipo / Imagotipo. Reunión con cliente para brief. Presentación de 2 alternativas y la posibilidad de 1 ajuste. No incluye manual o normalización. Se entrega archivo vectorial convertido a curvas.",
+            "minHours": 15,
+            "hours": 25,
+            "maxHours": 35
+          },
+          {
+            "name": "Isologo / Imagotipo (Manual de marca)",
+            "description": "Desarrollo del manual de una marca existente. Contiene normativas de empleo de la marca: usos permitidos, usos prohibidos, colores, aplicaciones, tamaños y reducciones, variables, etc. Se entrega archivo digital (PDF).",
+            "minHours": 5,
+            "hours": 15,
+            "maxHours": 25
+          },
+          {
+            "name": "Isologo / Imagotipo (Normalización)",
+            "description": "Trabajo normativo, incluye la pautas como para la grilla constructiva, proporciones, normalización de color, etc. Se entrega archivo digital (PDF).",
+            "minHours": 4,
+            "hours": 8,
+            "maxHours": 12
+          },
+          {
+            "name": "Isologo / Imagotipo (rediseño)",
+            "description": "Rediseño de marca, no incluye Manual de uso ni aplicaciones.",
+            "minHours": 10,
+            "hours": 20,
+            "maxHours": 30
+          },
+          {
+            "name": "Isologo / Imagotipo (restyling)",
+            "description": "Restyling logotipo/isotipo/imagotipo/isologo. No incluye Manual de uso ni aplicaciones.",
+            "minHours": 8,
+            "hours": 16,
+            "maxHours": 24
+          },
+          {
+            "name": "Marca efímera",
+            "description": "Diseño de isologotipo de uso único o de corta duración (ej.: evento). Incluye reunión con cliente para brief, presentación de 2 alternativas y la posibilidad de un ajuste. No incluye manual o normalización. Se entrega archivo vectorial convertido a curvas.",
+            "minHours": 10,
+            "hours": 20,
+            "maxHours": 30
+          },
+          {
+            "name": "Naming Corporativo/Institucional",
+            "description": "Desarrollo y definición del nombre de una marca corporativa o institucional.",
+            "minHours": 7,
+            "hours": 9,
+            "maxHours": 11
+          },
+          {
+            "name": "Naming Producto/Evento",
+            "description": "Desarrollo y definición del nombre de una marca para un producto o evento.",
+            "minHours": 7,
+            "hours": 9,
+            "maxHours": 11
+          },
+          {
+            "name": "Slogan/Lema",
+            "description": "Desarrollo para definir frase que acompaña al producto o empresa, similar al tagline.",
+            "minHours": 2,
+            "hours": 4,
+            "maxHours": 6
+          },
+          {
+            "name": "Tagline",
+            "description": "Desarrollo para definir frase que acompaña a la marca, siempre breve y contundente, mostrando su esencia.",
+            "minHours": 3,
+            "hours": 5,
+            "maxHours": 7
+          },
+          {
+            "name": "Tipografía",
+            "description": "1 sola variable de peso o inclinación. 256 glifos del set Latin-1 (27 minúsculas, 27 mayúsculas, números, signos complementarios:() [] {} / ¡! ¿? @ # $ € £ % & ß * . , ; : … '' «», signos monetarios básicos: incluyendo el real, el guaraní, austral, signos diacríticos básicos: diéresis, virgulilla, grave, agudo, cedilla, circunflejo y demás).",
+            "minHours": 180,
+            "hours": 210,
+            "maxHours": 240
+          }
+        ]
+      },
+      {
+        "subcategory": "Papelería",
+        "jobs": [
+          {
+            "name": "Papelería Completa",
+            "description": "Aplicación sobre marca existente, en hasta 5 piezas gráficas (carpetas, tarjetas, sobres, membrete, papelería comercial). Se entregan archivos preparados para imprenta y uso interno.",
+            "minHours": 8,
+            "hours": 12,
+            "maxHours": 16
+          },
+          {
+            "name": "Carpeta empresarial/institucional",
+            "description": "Aplicación sobre marca existente. Tipo 44 x 31 cm (para hojas A4), con o sin solapas. No incluye hojas interiores. Se entrega archivo preparado para imprenta.",
+            "minHours": 5,
+            "hours": 7,
+            "maxHours": 9
+          },
+          {
+            "name": "Hoja Membrete",
+            "description": "Aplicación sobre marca existente. Se entrega archivo preparado para imprenta",
+            "minHours": 1,
+            "hours": 2,
+            "maxHours": 3
+          },
+          {
+            "name": "Papelería Comercial",
+            "description": "Formularios necesarios; como recibos, remitos, facturas. Se entregan archivos preparados para imprenta.",
+            "minHours": 4,
+            "hours": 6,
+            "maxHours": 8
+          },
+          {
+            "name": "Sobres tipo bolsa/A4",
+            "description": "Aplicación sobre marca existente. Se entrega archivo preparado para imprenta.",
+            "minHours": 1,
+            "hours": 3,
+            "maxHours": 5
+          },
+          {
+            "name": "Sobres tipo oficio inglés/carta",
+            "description": "Diseño o aplicación de marca existente. 4 colores. 2 Bocetos. Modificación de uno de los bocetos. Preparación para imprenta. Se entregan archivos de imprenta.",
+            "minHours": 1,
+            "hours": 3,
+            "maxHours": 5
+          },
+          {
+            "name": "Tarjeta personal",
+            "description": "Aplicación sobre marca existente. Se entrega archivo preparado para imprenta.",
+            "minHours": 1,
+            "hours": 2,
+            "maxHours": 3
+          }
+        ]
+      },
+      {
+        "subcategory": "Otros",
+        "jobs": [
+          {
+            "name": "Certificado",
+            "description": "Aplicación sobre marca existente. Documento que certifica la asistencia a un evento, adjudicación de un premio o reconocimiento, entre otros usos. Tamaño tipo A4. Se entrega archivo preparado para imprenta.",
+            "minHours": 3,
+            "hours": 5,
+            "maxHours": 7
+          },
+          {
+            "name": "Postal",
+            "description": "Pieza gráfica con frente y dorso (imagen y datos). No se incluye costo fotógrafo profesional o banco de imágenes. Tamaño tipo 15 x 10 cm, aproximadamente. Se entregan archivos preparados para imprenta.",
+            "minHours": 3,
+            "hours": 5,
+            "maxHours": 7
+          },
+          {
+            "name": "Uniforme",
+            "description": "Aplicación de marca o sistema de identidad a remera, chomba, camisa o blusa estampados o bordados. Se entregan archivos preparados para impresión",
+            "minHours": 2,
+            "hours": 3,
+            "maxHours": 4
+          },
+          {
+            "name": "Uniforme (sistema)",
+            "description": "Desarrollo de sistema de uniforme o vestuario completo con aplicación de marca o sistema de identidad; se incluyen hasta 4 categorías (gerencia, administración, ventas, operario, entre otros) con variables para ambos géneros. Se entregan archivos preparados para impresión.",
+            "minHours": 16,
+            "hours": 23,
+            "maxHours": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Diseño Publicitario",
+  
+        "jobs": [
+          {
+            "name": "Afiche",
+            "description": "Diseño tamaño A3 (o proporcional). Incluye dos alternativas y la posibilidad de un ajuste. Se entrega el archivo en formato digital (PDF).",
+            "minHours": 2,
+            "hours": 6,
+            "maxHours": 12
+          },
+          {
+            "name": "Bandeau",
+            "description": "Diseño de la pieza. Incluye dos alternativas y la posibilidad de un ajuste. Se entrega el archivo en formato digital (PDF).",
+            "minHours": 4,
+            "hours": 6,
+            "maxHours": 8
+          },
+          {
+            "name": "Banner autoportante",
+            "description": "Diseño de la pieza. Incluye dos alternativas y la posibilidad de un ajuste. Se entrega el archivo en formato digital (PDF).",
+            "minHours": 4,
+            "hours": 7,
+            "maxHours": 10
+          },
+          {
+            "name": "Cenefa",
+            "description": "Diseño de la pieza. Incluye dos alternativas y la posibilidad de un ajuste. Se entrega el archivo en formato digital (PDF).",
+            "minHours": 4,
+            "hours": 7,
+            "maxHours": 10
+          },
+          {
+            "name": "Diseño de pared",
+            "description": "Diseño de la pieza. Incluye dos alternativas y la posibilidad de un ajuste. Se entrega el archivo en formato digital (PDF).",
+            "minHours": 5,
+            "hours": 8,
+            "maxHours": 11
+          },
+          {
+            "name": "Ploteado vehicular (baja complejidad)",
+            "description": "Diseño de la pieza. Incluye dos alternativas y la posibilidad de un ajuste. Se entrega el archivo en formato digital (PDF).",
+            "minHours": 6,
+            "hours": 9,
+            "maxHours": 12
+          },
+          {
+            "name": "Ploteado vehicular (alta complejidad)",
+            "description": "Diseño de la pieza. Incluye dos alternativas y la posibilidad de un ajuste. Se entrega el archivo en formato digital (PDF).",
+            "minHours": 8,
+            "hours": 12,
+            "maxHours": 16
+          },
+          {
+            "name": "Póster (Interno)",
+            "description": "Diseño A4 (o proporcional), incluye 2 alternativas y la posibilidad de 1 ajuste. Se entrega en formato digital (PDF)",
+            "minHours": 2,
+            "hours": 6,
+            "maxHours": 12
+          },
+          {
+            "name": "Publicidad",
+            "description": "Diseño de pieza formato A4 (o proporcional), incluye dos alternativas y la posibilidad de un ajuste. Se entrega el archivo en formato digital (PDF).",
+            "minHours": 12,
+            "hours": 16,
+            "maxHours": 20
+          },
+          {
+            "name": "Vía Pública",
+            "description": "Diseño de valla publicitaria (tamaño carapantalla), incluye dos alternativas y la posibilidad de un ajuste. Se entrega el archivo en formato digital (PDF).",
+            "minHours": 10,
+            "hours": 15,
+            "maxHours": 20
+          },
+          {
+            "name": "Vidriera",
+            "description": "Diseño de pieza de 4,4 x 2,2 m (o proporcional), incluye 2 alternativas y la posibilidad de 1 ajuste. Se entrega en formato digital (PDF).",
+            "minHours": 6,
+            "hours": 8,
+            "maxHours": 10
+          },
+          {
+            "name": "Vidriera (ploteado)",
+            "description": "Diseño de hasta 10 x 3 m, incluye 2 propuestas con modificación de 1 boceto. Preparación y entrega de archivos para imprenta.",
+            "minHours": 10,
+            "hours": 14,
+            "maxHours": 18
+          },
+          {
+            "name": "Volante/Flyer (frente y dorso)",
+            "description": "Diseño de pieza tamaño A5 (o proporcional), incluye dos alternativas y la posibilidad de un ajuste. Se entrega en formato digital (PDF).",
+            "minHours": 6,
+            "hours": 8,
+            "maxHours": 10
+          },
+          {
+            "name": "Volante/Flyer (sólo frente)",
+            "description": "Diseño de pieza tamaño A5 (o proporcional), incluye dos alternativas y la posibilidad de un ajuste. Se entrega en formato digital (PDF).",
+            "minHours": 4,
+            "hours": 6,
+            "maxHours": 8
+          }
+        ]
+    
+  },
+  {
+    "category": "Ilustración",
+    
+        "jobs": [
+          {
+            "name": "Digitalización",
+            "description": "Escaneado (de ser necesario) y redibujo de líneas para aplicación (logos, dibujos). No incluye cambios. Se entregan archivos vectoriales o imagen fija de alta calidad para uso libre.",
+            "minHours": 2,
+            "hours": 3,
+            "maxHours": 4
+          },
+          {
+            "name": "Ilustración a mano alzada",
+            "description": "Dibujo para revista, folleto, sitio web. Incluye 2 cambios. Se entregan archivos de alta calidad (no originales o editables) para uso con restricciones según propiedad intelectual acordada.",
+            "minHours": 8,
+            "hours": 12,
+            "maxHours": 16
+          },
+          {
+            "name": "Ilustración/modelado 3D",
+            "description": "Dibujo para revista, folleto, sitio web. Incluye 2 cambios. Se entregan archivos de alta calidad (no originales o editables o archivos fuente) para uso con restricciones según propiedad intelectual acordada.",
+            "minHours": 16,
+            "hours": 24,
+            "maxHours": 32
+          },
+          {
+            "name": "Ilustración vectorial",
+            "description": "Dibujo para revista, folleto, sitio web. Incluye 2 cambios. Se entregan archivos de alta calidad (no originales o editables) para uso con restricciones según propiedad intelectual acordada.",
+            "minHours": 8,
+            "hours": 12,
+            "maxHours": 16
+          }
+        ]
+    
+  },
+  {
+    "category": "Infografía",
+    
+        "jobs": [
+          {
+            "name": "Infografía (baja complejidad)",
+            "description": "Diseño de infografía de baja complejidad. Tamaño escalables desde A4, Incluye 2 alternativas y la posibilidad de 1 ajuste. Se entregan archivos de alta calidad (no originales, editables o archivos fuente) para usar en la publicación destinada.",
+            "minHours": 10,
+            "hours": 20,
+            "maxHours": 30
+          },
+          {
+            "name": "Infografía (alta complejidad)",
+            "description": "Diseño de infografía de alta complejidad. Tamaño escalables desde A4, Incluye 2 alternativas y la posibilidad de 1 ajuste. Se entregan archivos de alta calidad (no originales, editables o archivos fuente) para usar en la publicación destinada.",
+            "minHours": 30,
+            "hours": 45,
+            "maxHours": 60
+          },
+          {
+            "name": "Infografía (animación de baja complejidad)",
+            "description": "Animación de baja complejidad de infografía ya diseñada. Tamaño para pantalla: 1920 x 1080 px (mínimo 1280 x 720), incluye 2 bocetos (storyboard) y la posibilidad de 1 ajuste. Se entregan archivos de video (MP4), no originales, editables o archivos fuente, para usar en la publicación destinada. Duración: hasta 25'.",
+            "minHours": 14,
+            "hours": 20,
+            "maxHours": 40
+          },
+          {
+            "name": "Infografía (animación de alta complejidad)",
+            "description": "Animación de alta complejidad de infografía ya diseñada. Tamaño para pantalla: 1920 x 1080 px (mínimo 1280 x 720), incluye 2 bocetos (storyboard) y la posibilidad de 1 ajuste. Se entregan archivos de video (MP4), no originales, editables o archivos fuente, para usar en la publicación destinada. Duración: hasta 25'.",
+            "minHours": 20,
+            "hours": 30,
+            "maxHours": 60
+          }
+      
+    ]
+  },
+  {
+    "category": "Piezas promocionales",
+   
+        "jobs": [
+          {
+            "name": "Almanaque de pared simple",
+            "description": "Desarrollo de pieza gráfica tipo póster. Tamaño máximo A4. Pliego simple, solo frente. Incluye 2 muestras. Se entrega archivo preparado para impresión.",
+            "minHours": 6,
+            "hours": 9,
+            "maxHours": 12
+          },
+          {
+            "name": "Almanaque de pared anillado",
+            "description": "Desarrollo de pieza gráfica tipo revista o con anillado, frente y dorso, hasta 6 pliegos. Tamaño máximo A4. Incluye 2 muestras. Se entrega archivo preparado para impresión.",
+            "minHours": 16,
+            "hours": 20,
+            "maxHours": 24
+          },
+          {
+            "name": "Bandera",
+            "description": "Aplicación sobre marca existente. Se entrega archivo preparado para impresión.",
+            "minHours": 1,
+            "hours": 2,
+            "maxHours": 3
+          },
+          {
+            "name": "Bolsas / Envoltorios",
+            "description": "Aplicación sobre marca existente. Se entrega archivo preparado para impresión.",
+            "minHours": 2,
+            "hours": 3,
+            "maxHours": 4
+          },
+          {
+            "name": "Calcos",
+            "description": "Aplicación sobre marca existente. Se entrega archivo preparado para impresión.",
+            "minHours": 1,
+            "hours": 2,
+            "maxHours": 3
+          },
+          {
+            "name": "Lapiceras, pins, llaveros",
+            "description": "Aplicación sobre marca existente. Se entrega archivo preparado para impresión.",
+            "minHours": 1,
+            "hours": 2,
+            "maxHours": 3
+          },
+          {
+            "name": "Merchandising (pack)",
+            "description": "Desarrollo de hasta 10 piezas que pueden incluir remeras, llaveros, pins, gorras, calcos, lapiceras, tazas, mousepads, entre otras. Incluye 2 muestras. Se entregan archivos preparados para impresión.",
+            "minHours": 12,
+            "hours": 15,
+            "maxHours": 18
+          },
+          {
+            "name": "Pads, fundas celulares, tazas",
+            "description": "Aplicación sobre marca existente. Se entrega archivo preparado para impresión.",
+            "minHours": 1,
+            "hours": 2,
+            "maxHours": 3
+          },
+          {
+            "name": "Remeras",
+            "description": "Diseño de pieza formato A4 (o proporcional), incluye 2 alternativas y la posibilidad de 1 ajuste. Se entrega en formato digital (PDF).",
+            "minHours": 4,
+            "hours": 6,
+            "maxHours": 8
+          }
+        ]
+ 
+  },
+  {
+    "category": "Packaging",
+    
+        "jobs": [
+          {
+            "name": "Etiqueta Compuesta",
+            "description": "Desarrollo de pieza gráfica aplicada a un sistema o varias (max 3) etiquetas de un envase; Ej. aceite de oliva: etiqueta + contraetiqueta + cápsula + cuello de botella (si hubiera). Incluye 2 muestras. Se entregan archivos preparados para impresión.",
+            "minHours": 30,
+            "hours": 40,
+            "maxHours": 50
+          },
+          {
+            "name": "Etiqueta Simple",
+            "description": "Desarrollo de pieza gráfica aplicada a un modelo único; envoltura simple, impresión sobre envase, bolsa, caja. Incluye 2 muestras. Se entrega archivo preparado para impresión.",
+            "minHours": 10,
+            "hours": 15,
+            "maxHours": 20
+          },
+          {
+            "name": "Cajas/Pack de producto complejo",
+            "description": "Desarrollo del pack de alta complejidad, selección de materiales, diseño gráfico, incluye diseño del troquel. Creación de prototipo. Incluye 2 muestras. Se entregan archivos preparados para impresión.",
+            "minHours": 20,
+            "hours": 30,
+            "maxHours": 40
+          },
+          {
+            "name": "Cajas/Pack promocional",
+            "description": "Desarrollo de pieza gráfica de complejidad media, incluye diseño del troquel. Incluye 2 muestras. Se entregan archivos preparados para impresión.",
+            "minHours": 14,
+            "hours": 20,
+            "maxHours": 26
+          }
+        ]
+     
+  },
+  {
+    "category": "Redes Sociales",
+      "jobs": [
+        {
+          "name": "Perfil en RRSS",
+          "description": "Definición de información y administración, diseño de imagen de portada y perfil.",
+          "minHours": 3,
+          "hours": 4,
+          "maxHours": 5
+        },
+        {
+          "name": "Gestión de posteos en RRSS",
+          "description": "Diseño y publicación de 20 posts/historias en redes sociales. Costo mensual.",
+          "minHours": 10,
+          "hours": 15,
+          "maxHours": 20
+        },
+        {
+          "name": "Plan social media",
+          "description": "Trazado de estrategia de marketing y cronograma de comunicación en RRSS. Se entrega un Excel con el cronograma. No contempla el diseño de la campaña.",
+          "minHours": 10,
+          "hours": 15,
+          "maxHours": 20
+        }
+    ]
+  },
+  {
+    "category": "Señalética",
+
+        "jobs": [
+          {
+            "name": "Cartel para exteriores",
+            "description": "Diseño de la pieza gráfica (tipo rutero, de alta visibilidad a distancia). Se entrega archivo preparado para impresión.",
+            "minHours": 8,
+            "hours": 12,
+            "maxHours": 16
+          },
+          {
+            "name": "Señalética",
+            "description": "Diseño de 3 piezas gráfica. Incluye asesoramiento de la materialización. Se entrega archivo preparado para impresión.",
+            "minHours": 5,
+            "hours": 15,
+            "maxHours": 25
+          },
+          {
+            "name": "Señalética . Sistema + Diseño de soporte",
+            "description": "Diseño de sistema señalético y su soporte. Incluye hasta 15 piezas (direccionales, locativas, restrictivas, informativas) y manual básico de aplicación. Se entregan archivos preparados para impresión o rotulado.",
+            "minHours": 5,
+            "hours": 15,
+            "maxHours": 25
+          }
+
+    ]
+  },
+  {
+    "category": "TV / Video",
+        "jobs": [
+          {
+            "name": "Pre-producción",
+            "description": "Storyboard, Diseño, Background, Styleframe, Ilustraciones.",
+            "minHours": 6,
+            "hours": 12,
+            "maxHours": 18
+          },
+          {
+            "name": "Placa estática",
+            "description": "Diseño de pieza gráfica, tamaño 1920 x 1080 px (mínimo 1280 x 720), optimizado para utilizar en un video, modo RGB. Se entrega archivo digital (PNG).",
+            "minHours": 3,
+            "hours": 5,
+            "maxHours": 7
+          },
+          {
+            "name": "Placa animada (2D)",
+            "description": "Diseño de pieza gráfica animada, tamaño 1920 x 1080 px, optimizado para utilizar en un video. Contiene texto, fondo y animación hasta 30'. Se entrega archivo digital (MP4).",
+            "minHours": 6,
+            "hours": 8,
+            "maxHours": 12
+          },
+          {
+            "name": "Spot publicitario/animación complejidad baja",
+            "description": "Motion graphics, edición de tomas y placas estáticas. Hasta 30' (1920 x 1080 px). Incluye la posibilidad de 1 corrección a la muestra. Se entrega archivo digital (MP4). Incluye storyboard",
+            "minHours": 6,
+            "hours": 12,
+            "maxHours": 18
+          },
+          {
+            "name": "Spot publicitario/animación complejidad media",
+            "description": "Motion graphics, transiciones con efectos, animación de textos, hasta 40' Formato HD (1920 x 1080 px), incluye 1 storyboard, la posibilidad de 1 corrección a la muestra. Se entrega archivos digital (MP4).",
+            "minHours": 14,
+            "hours": 24,
+            "maxHours": 34
+          },
+          {
+            "name": "Edición de video",
+            "description": "Edición de video, transiciones con efectos, textos fijos, hasta 40' Formato HD (1920 x 1080 px), incluye 1 storyboard, la posibilidad de 1 corrección a la muestra. Se entrega archivos digital (MP4).",
+            "minHours": 4,
+            "hours": 8,
+            "maxHours": 12
+          },
+          {
+            "name": "Infografía Animada",
+            "description": "Diseño Vectorial o mapa de bit, preparados para hacer animaciones de texto y formas para expresar un concepto de 40' formato HD (1920 X1080px), incluye 1 Storyboard, incluye 2 correciones. Se entrega archivo digital en .mp4, no se entrega originales.",
+            "minHours": 8,
+            "hours": 16,
+            "maxHours": 24
+          },
+          {
+            "name": "Zócalo",
+            "description": "Pieza estática o animación de armado simple, se diseña un sistema visual de texto y formas (10 placas), incluye la presentación de 2 bocetos y la posibilidad de 1 cambio. Se entrega secuencia de PNG o placas por separado en el mismo formato.",
+            "minHours": 6,
+            "hours": 9,
+            "maxHours": 12
+          }
+        ]
+  
+  },
+  {
+    "category": "Volumétrico",
+    "jobs": [
+      {
+        "name": "Colgantes (supermercados/locales)",
+        "description": "Tamaño A6 o menor. 1 Color. 2 bocetos. 1 ajuste. Se entrega digital (PDF) listo para imprimir.",
+        "minHours": 2,
+        "hours": 4,
+        "maxHours": 6
+      },
+      {
+        "name": "Llamadores (góndola de supermercados)",
+        "description": "Tamaño máximo A4. 4 colores, incluye 2 alternativas y la posibilidad de 1 ajuste. Se entrega digital (PDF) listo para imprimir.",
+        "minHours": 3,
+        "hours": 5,
+        "maxHours": 7
+      },
+      {
+        "name": "Stand (diseño morfológico)",
+        "description": "Diseño de pieza de exhibición o cubículo y cenefa, incluye 2 alternativas y la posibilidad de 1 ajuste. Se entrega modelo símil 2D (PDF).",
+        "minHours": 20,
+        "hours": 30,
+        "maxHours": 40
+      },
+      {
+        "name": "Stand (gráfica sobre estructura)",
+        "description": "Aplicación de marca existente y sistema de identidad sobre pieza de exhibición/estructura prediseñada (puede ser cubículo de 2 ó 3 paredes y cenefa, incluye 2 alternativas y la posibilidad de 1 ajuste. Incluye preparación y entrega de archivos para imprimir.",
+        "minHours": 14,
+        "hours": 18,
+        "maxHours": 22
+      },
+      {
+        "name": "Stand (Modelado 3D - Básico)",
+        "description": "Diseño de pieza de exhibición o cubículo y cenefa; diseño morfológico (estructuras especiales, elección de mobiliario, etc.). Incluye 2 alternativas y la posibilidad de 1 ajuste. Se entregan archivos renderizados (hasta 5 vistas).",
+        "minHours": 6,
+        "hours": 8,
+        "maxHours": 10
+      }
+    ]
+  }
+]
