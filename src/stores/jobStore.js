@@ -1,4 +1,3 @@
-// stores/jobStore.js
 import { defineStore } from "pinia";
 import { ref, computed } from "vue";
 import Fuse from "fuse.js";
@@ -17,7 +16,6 @@ export const useJobStore = defineStore("jobStore", () => {
     try {
       const response = await fetch("/jobs.json");
       const data = await response.json();
-      //console.log(data);
       let jobCounter = 1;
 
       jobs.value = data.map(category => {
@@ -32,6 +30,7 @@ export const useJobStore = defineStore("jobStore", () => {
                 selectedHours: job.hours || 0,
                 extraTime: 0,
                 utilityMargin: 0,
+                isCollapsed: false, // Track collapse state
               })),
             })),
           };
@@ -44,6 +43,7 @@ export const useJobStore = defineStore("jobStore", () => {
               selectedHours: job.hours || 0,
               extraTime: 0,
               utilityMargin: 0,
+              isCollapsed: false, // Track collapse state
             })),
           };
         } else {
@@ -57,21 +57,48 @@ export const useJobStore = defineStore("jobStore", () => {
     }
   };
 
+  const clearSelectedJob = () => {
+    if (selectedJob.value) {
+      selectedJob.value.isCollapsed = false; // Collapse the previously selected job
+    }
+    selectedJobId.value = null;
+    selectedJob.value = null;
+  };
+
+  const collapseAllJobs = () => {
+    
+    jobs.value.forEach(category => {
+        if (category.subcategories) {
+            category.subcategories.forEach(subcategory => {
+                subcategory.jobs.forEach(job => {
+                    job.isCollapsed = false; // Collapse all jobs
+                    //console.log(job.isCollapsed);
+                });
+            });
+        } else if (category.jobs) {
+            category.jobs.forEach(job => {
+                job.isCollapsed = false; // Collapse all jobs
+            });
+        }
+    });
+    
+  };
+
   const toggleJobSelection = (job) => {
     if (selectedJobId.value === job.id) {
-      selectedJobId.value = null;
-      selectedJob.value = null;
+      clearSelectedJob(); // Deselect the job if it's already selected
     } else {
+      clearSelectedJob(); // Deselect any previously selected job
       selectedJobId.value = job.id;
       selectedJob.value = job;
+      job.isCollapsed = true; // Expand the newly selected job
     }
   };
 
   const resetSearch = () => {
     searchQuery.value = "";
-    //console.log(selectedJobId);
-    selectedJobId.value = null;
-    selectedJob.value = null;
+    collapseAllJobs(); // Collapse all jobs
+    //clearSelectedJob(); // Clear the selected job when resetting the search
   };
 
   // Getters
@@ -93,29 +120,12 @@ export const useJobStore = defineStore("jobStore", () => {
     });
   });
 
-  const filteredJobs = computed(() => {
-    if (!searchQuery.value) {
-      return jobs.value.flatMap(category => {
-        if (category.subcategories) {
-          return category.subcategories.flatMap(subcategory => subcategory.jobs);
-        } else if (category.jobs) {
-          return category.jobs;
-        } else {
-          return [];
-        }
-      });
-    }
-
-    return fuse.value.search(searchQuery.value).map(result => result.item);
-  });
-
   const filteredCategories = computed(() => {
     if (!searchQuery.value) return jobs.value; // Si no hay búsqueda, muestra todo
 
-    
-    if(searchQuery.value && selectedJobId.value){
-        selectedJobId.value = null;
-    }
+    // Collapse all jobs and clear selection before performing the search
+    collapseAllJobs();
+    //clearSelectedJob();
 
     return jobs.value
       .map(category => {

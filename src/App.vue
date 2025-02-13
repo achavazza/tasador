@@ -25,12 +25,17 @@
                   <h4 class="collapse-title">{{ subcategory.subcategory }}</h4>
                   <ul class="collapse-content pl-10">
                     <li v-for="job in subcategory.jobs" :key="job.name"
-                      class="job-item bg-base-200 border border-base-300 p-5 rounded-xl mb-2 last:mb-0">
-                      <div @click="jobStore.toggleJobSelection(job)" class="job-header">
+                      class="bg-base-200 border border-base-300 rounded-xl mb-2 last:mb-0">
+                      
+                      <div class="collapse collapse-arrow">
+						<input type="checkbox" :checked="job.isCollapsed ? 'checked' : false" v-model="job.isCollapsed" @change="jobStore.toggleJobSelection(job)" />
+                      <div class="collapse-title">
                         <h5 class="font-bold mb-5">{{ job.name }}</h5>
                         <p>{{ job.description }}</p>
                       </div>
-                      <div v-if="jobStore.selectedJob && jobStore.selectedJob.id === job.id" class="slider-container">
+                      
+                      <div class="collapse-content">
+                      <div>
                         <fieldset class="w-full mt-5">
                           <input type="range" :min="job.minHours" :max="job.maxHours" v-model.number="job.selectedHours"
                             class="slider w-full range range-primary [--range-fill:0]" />
@@ -66,6 +71,8 @@
                             <span>(MU)</span>
                           </p>
                         </fieldset>
+                        </div>
+                      </div>
                       </div>
                     </li>
                   </ul>
@@ -73,12 +80,14 @@
               </ul>
               <ul v-else-if="category.jobs">
                 <li v-for="job in category.jobs" :key="job.name"
-                  class="job-item bg-base-100 border border-base-300 p-5 rounded-xl mb-4">
-                  <div @click="jobStore.toggleJobSelection(job)" class="job-header">
-                    <h5 class="font-bold mb-5">{{ job.name }}</h5>
+                  class="job-item bg-base-100 border border-base-300 rounded-xl mb-4">
+                  <div class="collapse collapse-arrow">
+					<input type="checkbox" :checked="job.isCollapsed ? 'checked' : false" v-model="job.isCollapsed" @change="jobStore.toggleJobSelection(job)" />
+                    <div class="collapse-title">
+					<h5 class="font-bold mb-5">{{ job.name }}</h5>
                     <p>{{ job.description }}</p>
                   </div>
-                  <div v-if="jobStore.selectedJob && jobStore.selectedJob.id === job.id" class="slider-container">
+                  <div class="collapse-content">
                     <fieldset class="w-full mt-5">
                       <input type="range" :min="job.minHours" :max="job.maxHours" v-model.number="job.selectedHours"
                         class="slider w-full range range-primary [--range-fill:0]" />
@@ -114,6 +123,7 @@
                         <span>(MU)</span>
                       </p>
                     </fieldset>
+                  </div>
                   </div>
                 </li>
               </ul>
@@ -263,6 +273,15 @@ import { onMounted } from "vue";
 import VueNumberFormat from 'vue-number-format'
 
 const jobStore = useJobStore();
+/*
+const handleCollapseChange = (job) => {
+  if (job.isCollapsed) {
+    jobStore.toggleJobSelection(job);
+  } else {
+    jobStore.toggleJobSelection(job);
+  }
+};*/
+
 
 onMounted(() => {
   jobStore.fetchJobs();
