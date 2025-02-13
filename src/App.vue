@@ -149,7 +149,7 @@
           <legend class="fieldset-legend w-full">
             <div class="w-full flex justify-between"> 
             <span>Descuento</span> 
-            <span>(DV)</span>
+            <span>(D)</span>
             </div>
           </legend>
           <input type="range" :min="0" :max="50" v-model.number="jobStore.value.discount"
@@ -191,7 +191,7 @@
         </div>
 
         <div class="mt-10">
-          <div class="p-2 text-center font-bold">(VH x (CH + TE)) + MU + VE = VT</div>
+          <div class="p-2 text-center font-bold">((VH x (CH + TE)) + MU + VE) - D = VT</div>
 
           <!-- name of each tab group should be unique -->
           <div class="tabs tabs-lift">
@@ -234,6 +234,12 @@
               <p>Un 20% es un buen punto de partida.</p>
             </div>
 
+            <input type="radio" name="my_tabs_3" class="tab" aria-label="D" />
+            <div class="tab-content bg-base-100 border-base-300 p-6">
+              <h3 class="font-bold mb-2">Descuento (D)</h3>
+              <p>En caso que tengas que aplicar un descuento</p>
+            </div>
+
             <input type="radio" name="my_tabs_3" class="tab" aria-label="VT" />
             <div class="tab-content bg-base-100 border-base-300 p-6">
               <h3 class="font-bold mb-2">Valor Total (VT)</h3>
@@ -241,7 +247,7 @@
               <p>Este es el valor que indicamos al cliente a la hora de presupuestar.</p>
               <p>La composiciån de este Valor Total no debe ser conocida por el cliente (ninguna actividad comercial Io
                 hace, no hace falta un desglose).</p>
-              <p>Si es importante que conozco eI alcance del trabajo presupuestado a realizar.</p>
+              <p>Si es importante que conozco elI alcance del trabajo presupuestado a realizar.</p>
             </div>
           </div>
 
