@@ -140,7 +140,17 @@
           <input type="range" :min="0" :max="50" v-model.number="jobStore.value.discount"
             class="slider w-full range range-secondary  [--range-fill:0]" />
           <div class="flex justify-between px-2.5 mt-2 text-xs">
-            <span>0</span><span>10</span><span>20</span><span>40</span><span>50</span>
+            <span>0</span>
+            <span>5</span>
+            <span>10</span>
+            <span>15</span>
+            <span>20</span>
+            <span>25</span>
+            <span>30</span>
+            <span>35</span>
+            <span>40</span>
+            <span>45</span>
+            <span>50</span>
           </div>
           <p class="fieldset-label justify-between">
             <span>Descuento Valor {{ jobStore.value.discount }} %</span>
