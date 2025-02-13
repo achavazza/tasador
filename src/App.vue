@@ -126,17 +126,32 @@
 
       <div>
         <fieldset class="fieldset">
-          <legend class="fieldset-legend">Valor Hora</legend>
+          <legend class="fieldset-legend w-full">
+            <div class="w-full flex justify-between"> 
+            <span>Valor hora</span> 
+            <span>(VH)</span>
+            </div>
+          </legend>
           <input type="number" class="input w-full" placeholder="Ej. 15000" v-model.number="jobStore.value.base" />
         </fieldset>
 
         <fieldset class="fieldset">
-          <legend class="fieldset-legend">Valor Extra</legend>
+          <legend class="fieldset-legend w-full">
+            <div class="w-full flex justify-between"> 
+            <span>Valor Extra</span> 
+            <span>(VE)</span>
+            </div>
+          </legend>
           <input type="number" class="input w-full" placeholder="Ej. 2000" v-model.number="jobStore.value.extra" />
         </fieldset>
 
-        <fieldset class="fieldset w-full mt-5">
-          <legend class="fieldset-legend">Descuento</legend>
+        <fieldset class="fieldset w-full">
+          <legend class="fieldset-legend w-full">
+            <div class="w-full flex justify-between"> 
+            <span>Descuento</span> 
+            <span>(DV)</span>
+            </div>
+          </legend>
           <input type="range" :min="0" :max="50" v-model.number="jobStore.value.discount"
             class="slider w-full range range-secondary  [--range-fill:0]" />
           <div class="flex justify-between px-2.5 mt-2 text-xs">
@@ -152,10 +167,11 @@
             <span>45</span>
             <span>50</span>
           </div>
-          <p class="fieldset-label justify-between">
-            <span>Descuento Valor {{ jobStore.value.discount }} %</span>
-            <span>(DV)</span>
-          </p>
+          <div class="fieldset-label">
+            <p class="w-full text-right mt-2">
+              Descuento Valor <b>{{ jobStore.value.discount }} %</b>
+            </p>
+          </div>
         </fieldset>
 
         <div class="mt-10 card  bg-base-200">
