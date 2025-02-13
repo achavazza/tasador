@@ -10,24 +10,22 @@
           </div>
         </fieldset>
 
+        <div class="scroll">
         <div v-if="jobStore.loading">Cargando...</div>
         <ul v-else>
           <li v-for="category in jobStore.filteredCategories" :key="category.category"
-            class="collapse collapse-arrow bg-base-200 border border-base-300 mb-5"
-            v-show="jobStore.selectedJobId ? jobStore.categoryHasSelectedJob(category) : true">
+            class="collapse collapse-arrow bg-base-200 border border-base-300 mb-5">
             <input type="checkbox" :checked="jobStore.searchQuery ? 'checked' : false" />
             <h3 class="collapse-title">{{ category.category }}</h3>
             <div class="collapse-content pl-10">
               <ul v-if="category.subcategories">
                 <li v-for="subcategory in category.subcategories" :key="subcategory.subcategory"
-                  class="collapse mb-2 last:mb-0 collapse-arrow bg-base-100 border border-base-300"
-                  v-show="jobStore.selectedJobId ? jobStore.subcategoryHasSelectedJob(subcategory) : true">
+                  class="collapse mb-2 last:mb-0 collapse-arrow bg-base-100 border border-base-300">
                   <input type="checkbox" :checked="jobStore.searchQuery ? 'checked' : false" />
                   <h4 class="collapse-title">{{ subcategory.subcategory }}</h4>
                   <ul class="collapse-content pl-10">
                     <li v-for="job in subcategory.jobs" :key="job.name"
-                      class="job-item bg-base-200 border border-base-300 p-5 rounded-xl mb-2 last:mb-0"
-                      v-show="!jobStore.selectedJobId || jobStore.selectedJobId === job.id">
+                      class="job-item bg-base-200 border border-base-300 p-5 rounded-xl mb-2 last:mb-0">
                       <div @click="jobStore.toggleJobSelection(job)" class="job-header">
                         <h5 class="font-bold mb-5">{{ job.name }}</h5>
                         <p>{{ job.description }}</p>
@@ -75,8 +73,7 @@
               </ul>
               <ul v-else-if="category.jobs">
                 <li v-for="job in category.jobs" :key="job.name"
-                  class="job-item bg-base-100 border border-base-300 p-5 rounded-xl mb-4"
-                  v-show="!jobStore.selectedJobId || jobStore.selectedJobId === job.id">
+                  class="job-item bg-base-100 border border-base-300 p-5 rounded-xl mb-4">
                   <div @click="jobStore.toggleJobSelection(job)" class="job-header">
                     <h5 class="font-bold mb-5">{{ job.name }}</h5>
                     <p>{{ job.description }}</p>
@@ -124,6 +121,7 @@
             </div>
           </li>
         </ul>
+      </div>
       </div>
 
       <div>
