@@ -6,7 +6,7 @@
           <legend class="fieldset-legend">Buscar</legend>
           <div class="join">
             <input class="join-item input w-full" v-model="jobStore.searchQuery" placeholder="Buscar trabajo o descripción..." />
-            <button class="join-item btn btn-neutral" @click="jobStore.resetSearch">Reset</button>
+            <button class="join-item btn btn-secondary" @click="jobStore.resetSearch">Borrar</button>
           </div>
         </fieldset>
 
@@ -28,9 +28,9 @@
                       class="bg-base-200 border border-base-300 rounded-xl mb-2 last:mb-0">
                       
                       <div class="collapse collapse-arrow">
-						<input type="checkbox" :checked="job.isCollapsed ? 'checked' : false" v-model="job.isCollapsed" @change="jobStore.toggleJobSelection(job)" />
+						          <input type="checkbox" :checked="job.isCollapsed ? 'checked' : false" v-model="job.isCollapsed" @change="jobStore.toggleJobSelection(job)" />
                       <div class="collapse-title">
-                        <h5 class="font-bold mb-5">{{ job.name }}</h5>
+                        <h5 class="text-secondary font-bold mb-5">{{ job.name }}</h5>
                         <p>{{ job.description }}</p>
                       </div>
                       
@@ -42,8 +42,8 @@
                           <div class="flex justify-between px-2.5 mt-2 text-xs">
                             <span v-for="value in jobStore.getSliderValues(job.minHours, job.maxHours)" :key="value">{{ value }}</span>
                           </div>
-                          <p class="fieldset-label justify-between">
-                            <span>Cantidad Horas {{ job.selectedHours || job.minHours }} hs.</span>
+                          <p class="fieldset-label justify-between mt-2">
+                            <span>Cantidad Horas <b class="text-primary">{{ job.selectedHours || job.minHours }} hs.</b></span>
                             <span>(CH)</span>
                           </p>
                         </fieldset>
@@ -54,8 +54,8 @@
                           <div class="flex justify-between px-2.5 mt-2 text-xs">
                             <span v-for="value in jobStore.getSliderValues(0, Math.ceil(job.maxHours / 2))" :key="value">{{ value }}</span>
                           </div>
-                          <p class="fieldset-label justify-between">
-                            <span>Tiempo Extra {{ job.extraTime }} hs.</span>
+                          <p class="fieldset-label justify-between mt-2">
+                            <span>Tiempo Extra <b class="text-primary">{{ job.extraTime }} hs.</b></span>
                             <span>(TE)</span>
                           </p>
                         </fieldset>
@@ -66,8 +66,8 @@
                           <div class="flex justify-between px-2.5 mt-2 text-xs">
                             <span>0</span><span>5</span><span>10</span><span>15</span><span>20</span>
                           </div>
-                          <p class="fieldset-label justify-between">
-                            <span>Margen de utilidad {{ job.utilityMargin }} %</span>
+                          <p class="fieldset-label justify-between mt-2">
+                            <span>Margen de utilidad <b class="text-primary">{{ job.utilityMargin }} %</b></span>
                             <span>(MU)</span>
                           </p>
                         </fieldset>
@@ -84,7 +84,7 @@
                   <div class="collapse collapse-arrow">
 					<input type="checkbox" :checked="job.isCollapsed ? 'checked' : false" v-model="job.isCollapsed" @change="jobStore.toggleJobSelection(job)" />
                     <div class="collapse-title">
-					<h5 class="font-bold mb-5">{{ job.name }}</h5>
+					<h5 class="text-secondary font-bold mb-5">{{ job.name }}</h5>
                     <p>{{ job.description }}</p>
                   </div>
                   <div class="collapse-content">
@@ -95,7 +95,7 @@
                         <span v-for="value in jobStore.getSliderValues(job.minHours, job.maxHours)" :key="value">{{ value }}</span>
                       </div>
                       <p class="fieldset-label justify-between">
-                        <span>Cantidad Horas {{ job.selectedHours || job.minHours }} hs.</span>
+                        <span>Cantidad Horas <b class="text-primary">{{ job.selectedHours || job.minHours }} hs.</b></span>
                         <span>(CH)</span>
                       </p>
                     </fieldset>
@@ -107,7 +107,7 @@
                         <span v-for="value in jobStore.getSliderValues(0, Math.ceil(job.maxHours / 2))" :key="value">{{ value }}</span>
                       </div>
                       <p class="fieldset-label justify-between">
-                        <span>Tiempo Extra {{ job.extraTime }} hs.</span>
+                        <span>Tiempo Extra <b class="text-primary">{{ job.extraTime }} hs.</b></span>
                         <span>(TE)</span>
                       </p>
                     </fieldset>
@@ -119,7 +119,7 @@
                         <span>0</span><span>5</span><span>10</span><span>15</span><span>20</span>
                       </div>
                       <p class="fieldset-label justify-between">
-                        <span>Margen de utilidad {{ job.utilityMargin }} %</span>
+                        <span>Margen de utilidad <b class="text-primary">{{ job.utilityMargin }} %</b></span>
                         <span>(MU)</span>
                       </p>
                     </fieldset>
@@ -184,9 +184,12 @@
           </div>
         </fieldset>
 
-        <div class="mt-10 card  bg-base-200">
+        <div class="mt-10 card bg-base-200">
+        
         <div class="card-body">
-          <h5 class="font-bold">Total</h5>
+          <div class="card-title">
+            <h5 class="font-bold text-secondary">Total</h5>
+          </div>
           <VueNumberFormat
             class="text-6xl text-right text-primary border-none"
             style="outline: 0"
